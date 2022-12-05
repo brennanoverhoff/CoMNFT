@@ -1,5 +1,5 @@
-#CoM-NFT
-##Motivation
+# CoM-NFT
+## Motivation
 Claiming and transacting composition of matter (CoM) intellectual property (IP) is a common operation of companies in the materials and life science sectors.
 Composition of matter patents are used to protect assets involving the formulation of chemicals/compounds
 to serve a purpose. CoM patents are commonly sought by biotech and pharma companies to protect
@@ -8,7 +8,7 @@ libraries of investigational chemicals to be further studied, developed, and com
 entities. The goal of this project is to validate and define ownership of CoM IP on chain to facilitate
 these transactions at scale. 
 
-##Implementation
+## Implementation
 This project implements an ERC721 NFT smart contract to define CoM on chain in the form of SMILES strings. While anyone is able to mint
 new CoM-NFTs, several security checks and handshakes occur prior to ensure:
 1. The minter provides a valid SMILES string, i.e. one which corresponds to a physically viable molecule
@@ -24,7 +24,7 @@ Prior to minting a given SMILES string, a Chainlink oracle queries this API to e
 
 This project made use of the Chainlink brownie mix to inform contract creation and deployment. 
 
-##Prerequisites
+## Prerequisites
 Please ensure the following are installed:
 * Python
 * Brownie
@@ -48,7 +48,7 @@ export PinataAPIKey=
 export PinataAPISecret=
 ```
 
-##Running
+## Running
 To deploy the CoMNFT smart contract run the following in the root directory:
 ```buildoutcfg
 brownie run scripts/minting.py --network goerli
