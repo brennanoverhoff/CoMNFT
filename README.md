@@ -51,7 +51,7 @@ export PinataAPISecret=
 ## Running
 To deploy the CoMNFT smart contract run the following in the root directory:
 ```buildoutcfg
-brownie run scripts/minting.py --network goerli
+brownie run scripts/deploy.py --network goerli
 ```
 To mint new tokens corresponding to compounds denoted in scripts/mint.tsv:
 ```buildoutcfg
