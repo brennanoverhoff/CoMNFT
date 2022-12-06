@@ -1,4 +1,4 @@
-from brownie import CoMNFT, APIConsumer, accounts, config, network
+from brownie import CoMNFT, accounts, config, network
 from scripts.helpful_scripts import get_account, fund_with_link
 import os
 from rdkit import Chem

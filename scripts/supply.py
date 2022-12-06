@@ -1,4 +1,4 @@
-from brownie import CoMNFT, APIConsumer, accounts, config, network
+from brownie import CoMNFT, accounts, config, network
 from scripts.helpful_scripts import (
     BLOCK_CONFIRMATIONS_FOR_VERIFICATION,
     get_account,
